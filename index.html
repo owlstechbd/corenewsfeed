@@ -36,6 +36,8 @@
     <!-- Preload font files -->
     <link rel="preload" href="font/PublicaSans-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" href="font/PublicaSans-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    
+    
 
     <link rel="stylesheet" href="css/style.css">
    
@@ -232,7 +234,7 @@
         </div>
         <div class="service-conteiner">
             <div class="owl-carousel">
-                <a  class="popup-trigger" data-popup="popupForm" style="cursor: pointer;">
+                <a  class="popup-trigger" data-popup="formpop2" style="cursor: pointer;">
                     <div class="item">
                         <div class="service-area">
                             <img src="images/Intelligence-Grid.png" alt="">
@@ -1056,6 +1058,51 @@
 
   
 <!-- Popup container for signature-private -->
+
+<div id="formpop2" class="service-popup">
+    <div class="popup-content3 popup-content">
+        <span class="close-btn">&times;</span>
+        <h2>Enter your details</h2>
+        <form id="form">
+            <input type="text" id="name" name="name" required placeholder="Full Name">
+            <input type="email" id="email" name="email" required placeholder="Business Email">
+            <input type="text" id="company" name="company" required placeholder="Company Name">
+
+            <div class="multiselect-dropdown">
+                <button class="multiselect-btn">Product Interest</button>
+                <div class="dropdown-content">
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="Sovereign Public Cloud" /> Sovereign Public Cloud
+                    </label>
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="Signature Private Cloud" /> Signature Private Cloud
+                    </label>
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="Compass" /> Compass
+                    </label>
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="AI Cloud" /> AI Cloud
+                    </label>
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="Digital Services" /> Digital Services
+                    </label>
+                    <label class="dropdown-item">
+                        <input type="checkbox" name="services" value="Others" /> Others
+                    </label>
+                </div>
+            </div>
+
+            <label class="trem">
+                <input type="checkbox" id="terms" name="terms" required checked>
+                I agree to the <a href="https://core42.ai/privacy-notice.html">Terms and Conditions and Privacy
+                    Policy</a>
+            </label>
+<!-- Hidden input to store the button name -->
+<input type="hidden" id="buttonName" name="buttonName" />
+            <input type="submit" value="Submit"></input>
+        </form>
+    </div>
+</div>
 <div id="signature-private" class="service-popup">
     <div class="popup-content2 popup-content">
         <span class="close-btn">&times;</span>

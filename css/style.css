@@ -2283,6 +2283,9 @@ button.multiselect-btn {
 }
 
 
-div#popupForm{
-    display: flex;
+.popup-content3.popup-content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

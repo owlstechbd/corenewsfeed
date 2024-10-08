@@ -431,8 +431,3 @@ window.addEventListener('click', (event) => {
     popup.style.display = 'none';
   }
 });
-
-window.onload = function() {
-  // Immediately hide the popup when the user first visits the site
-  document.getElementById('popupForm').style.display = 'none';
-};
