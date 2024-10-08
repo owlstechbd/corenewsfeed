@@ -1517,6 +1517,7 @@ input[type="submit"] {
 .tb_see_more_btn:hover{
     color: #fff!important;
 }
+
 .nesfed{
     width: 100%;
     background: url(../images/about-us.png) center center no-repeat;
@@ -2279,4 +2280,7 @@ partner */
 button.multiselect-btn {
     color: #C5C4C4;
     font-size: 16px;
+}
+div#popupForm{
+    display: flex;
 }

@@ -228,6 +228,10 @@ window.addEventListener("click", function (event) {
 
 
 
+
+
+
+
 //leader slider
 
 var leaderOwl = $(".leader-carousel").owlCarousel({
