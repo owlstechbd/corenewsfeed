@@ -2289,3 +2289,6 @@ button.multiselect-btn {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.popup-content3.popup-content .close-btn{
+    color: #000;
+}
